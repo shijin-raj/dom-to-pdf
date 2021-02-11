@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-to-PDF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+</head>
+
+<body>
+    <h1>DOM-to-PDF</h1>
+    <p>Modify the below section and click <strong>Download PDF</strong></p>
+    <section id="content">
+        This section can be downloaded as PDF.
+    </section>
+    <button id="download" onclick="producePDF()">Download PDF</button>
+    <div id="checkDiv"></div>
+    <script src="script.js">
+    </script>
+</body>
+<style>
+    .pdf-clearance {
+        display: none;
+        height: 400px;
+    }
+    
+    #content {
+        background-color: beige;
+        padding: 20px;
+    }
+</style>
+
+</html>

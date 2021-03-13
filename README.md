@@ -1,2 +1,2 @@
 # dom-to-pdf
-Provides PDF output from HTML DOM elements.
+Provides PDF output from HTML snippets.

@@ -1,5 +1,5 @@
 # DOM-TO-PDF
-Provides PDF output from HTML snippets.
+Prduces PDF output from HTML snippets.
 
 # Libraries-used
 HTML2Canvas, jsPDF & jQuery.

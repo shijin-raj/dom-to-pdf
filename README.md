@@ -1,9 +1,9 @@
 # DOM-TO-PDF
 Provides PDF output from HTML snippets.
 
-##Libraries-used
+# Libraries-used
 HTML2Canvas
 jsPDF
 
-##Limitations
+# Limitations
 Image quality reduces while generating image from canvas.

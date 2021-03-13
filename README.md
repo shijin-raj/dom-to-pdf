@@ -1,2 +1,2 @@
 # dom-to-pdf
-Provides optimized PDF output for HTML DOM elements.
+Provides PDF output from HTML DOM elements.
